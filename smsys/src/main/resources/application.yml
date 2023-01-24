@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    password: password
+    url: jdbc:mysql://localhost:3306/smsysDB
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+    show-sql: true
+
